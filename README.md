@@ -31,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Card de um produto criado com intuito de fortalecer conhecimetnos de HTML, CSS e JavaScript
  
-- [Acesse o projeto finalizado, online](https://my-links-me.vercel.app/)
+- [Acesse o projeto finalizado, online](https://card-sofa.vercel.app/)
 
 ## :memo: Licença
 
