@@ -1,0 +1,85 @@
+:root{
+    --bg-color: #D9CDF7;
+    --text-color: #271A45;
+    font-size: 62.5%;
+}
+
+*{
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+}
+
+.sofa{
+    width: 45rem;
+    height: 22.3rem;
+    position: relative;
+}
+
+.sofa .image-sofa{
+    width: 100%;
+    height: 100%;
+}
+
+.sofa .icon-rotate{
+    position: absolute;
+    right: 50px;
+    top: 9px;
+    cursor: pointer;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.info .title p{
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--text-color);
+}
+
+.info .title h2{
+    font-family: 'Crimson Pro', serif;
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin: 1.2rem 0;
+}
+
+.info .title .price{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.info .btn-buy{
+    margin-top: 2.8rem;
+}
+
+.info .btn-buy button{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-color);
+
+    padding: .8rem 1.6rem;
+    border: 0.2rem solid var(--text-color);
+    border-radius: 3rem;
+    background-color: transparent; 
+    cursor: pointer;  
+}
